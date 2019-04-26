@@ -45,6 +45,7 @@ func (mr *Master) startRPCServer() {
 					conn.Close()
 				}()
 			} else {
+				//has been changed by sunny
 				debug("RegistrationServer: accept error")
 				break
 			}
